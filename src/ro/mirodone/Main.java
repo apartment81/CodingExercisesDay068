@@ -21,6 +21,11 @@ public class Main {
         decimal.decToBinary(219);
         System.out.println("");
         decimal.decToBinary(31);
+        System.out.println("");
+
+        CleverBinary clever = new CleverBinary();
+        System.out.println(clever.convertBinaryArrayToInt(new ArrayList<>(Arrays.asList(1, 1, 0, 1, 1, 0, 1, 1))));
+
 
     }
 }
